@@ -1,0 +1,171 @@
+|jpd_reg_8bit
+Q[0] <= jpd_reg_1bit:inst.Q
+Q[1] <= jpd_reg_1bit:inst1.Q
+Q[2] <= jpd_reg_1bit:inst2.Q
+Q[3] <= jpd_reg_1bit:inst3.Q
+Q[4] <= jpd_reg_1bit:inst4.Q
+Q[5] <= jpd_reg_1bit:inst5.Q
+Q[6] <= jpd_reg_1bit:inst6.Q
+Q[7] <= jpd_reg_1bit:inst7.Q
+dado[0] => jpd_reg_1bit:inst.dado
+dado[1] => jpd_reg_1bit:inst1.dado
+dado[2] => jpd_reg_1bit:inst2.dado
+dado[3] => jpd_reg_1bit:inst3.dado
+dado[4] => jpd_reg_1bit:inst4.dado
+dado[5] => jpd_reg_1bit:inst5.dado
+dado[6] => jpd_reg_1bit:inst6.dado
+dado[7] => jpd_reg_1bit:inst7.dado
+enable => jpd_reg_1bit:inst.enable
+enable => jpd_reg_1bit:inst1.enable
+enable => jpd_reg_1bit:inst2.enable
+enable => jpd_reg_1bit:inst3.enable
+enable => jpd_reg_1bit:inst4.enable
+enable => jpd_reg_1bit:inst5.enable
+enable => jpd_reg_1bit:inst6.enable
+enable => jpd_reg_1bit:inst7.enable
+ck => jpd_reg_1bit:inst.ck
+ck => jpd_reg_1bit:inst1.ck
+ck => jpd_reg_1bit:inst2.ck
+ck => jpd_reg_1bit:inst3.ck
+ck => jpd_reg_1bit:inst4.ck
+ck => jpd_reg_1bit:inst5.ck
+ck => jpd_reg_1bit:inst6.ck
+ck => jpd_reg_1bit:inst7.ck
+rst => jpd_reg_1bit:inst.rst
+rst => jpd_reg_1bit:inst1.rst
+rst => jpd_reg_1bit:inst2.rst
+rst => jpd_reg_1bit:inst3.rst
+rst => jpd_reg_1bit:inst4.rst
+rst => jpd_reg_1bit:inst5.rst
+rst => jpd_reg_1bit:inst6.rst
+rst => jpd_reg_1bit:inst7.rst
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst2.IN0
+ck => inst.CLK
+dado => jpd_mux_2x1:inst4.e1
+enable => jpd_mux_2x1:inst4.c
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst|jpd_mux_2x1:inst4
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => inst1.IN0
+c => inst1.IN1
+c => inst3.IN0
+e0 => inst.IN0
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst1
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst2.IN0
+ck => inst.CLK
+dado => jpd_mux_2x1:inst4.e1
+enable => jpd_mux_2x1:inst4.c
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst1|jpd_mux_2x1:inst4
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => inst1.IN0
+c => inst1.IN1
+c => inst3.IN0
+e0 => inst.IN0
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst2
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst2.IN0
+ck => inst.CLK
+dado => jpd_mux_2x1:inst4.e1
+enable => jpd_mux_2x1:inst4.c
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst2|jpd_mux_2x1:inst4
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => inst1.IN0
+c => inst1.IN1
+c => inst3.IN0
+e0 => inst.IN0
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst3
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst2.IN0
+ck => inst.CLK
+dado => jpd_mux_2x1:inst4.e1
+enable => jpd_mux_2x1:inst4.c
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst3|jpd_mux_2x1:inst4
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => inst1.IN0
+c => inst1.IN1
+c => inst3.IN0
+e0 => inst.IN0
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst4
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst2.IN0
+ck => inst.CLK
+dado => jpd_mux_2x1:inst4.e1
+enable => jpd_mux_2x1:inst4.c
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst4|jpd_mux_2x1:inst4
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => inst1.IN0
+c => inst1.IN1
+c => inst3.IN0
+e0 => inst.IN0
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst5
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst2.IN0
+ck => inst.CLK
+dado => jpd_mux_2x1:inst4.e1
+enable => jpd_mux_2x1:inst4.c
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst5|jpd_mux_2x1:inst4
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => inst1.IN0
+c => inst1.IN1
+c => inst3.IN0
+e0 => inst.IN0
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst6
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst2.IN0
+ck => inst.CLK
+dado => jpd_mux_2x1:inst4.e1
+enable => jpd_mux_2x1:inst4.c
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst6|jpd_mux_2x1:inst4
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => inst1.IN0
+c => inst1.IN1
+c => inst3.IN0
+e0 => inst.IN0
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst7
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst2.IN0
+ck => inst.CLK
+dado => jpd_mux_2x1:inst4.e1
+enable => jpd_mux_2x1:inst4.c
+
+
+|jpd_reg_8bit|jpd_reg_1bit:inst7|jpd_mux_2x1:inst4
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => inst1.IN0
+c => inst1.IN1
+c => inst3.IN0
+e0 => inst.IN0
+
+

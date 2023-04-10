@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aluno/Desktop/quartus2/quartus2/jpd_display.bdf
+source_file = 1, C:/Users/aluno/Desktop/quartus2/quartus2/db/jpd_display.cbx.xml
+source_file = 1, C:/Users/aluno/Desktop/quartus2/quartus2/jpd_mux_16x1.bdf
+design_name = jpd_display
+instance = comp, \k[3]~input\, k[3]~input, jpd_display, 1
+instance = comp, \k[2]~input\, k[2]~input, jpd_display, 1
+instance = comp, \k[1]~input\, k[1]~input, jpd_display, 1
+instance = comp, \k[0]~input\, k[0]~input, jpd_display, 1

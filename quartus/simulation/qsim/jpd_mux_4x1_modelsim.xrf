@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ayala/Desktop/top/quartus2/mux_4x1_simulation.vwf
+source_file = 1, C:/Users/ayala/Desktop/top/quartus2/jpd_mux_4x1.bdf
+source_file = 1, C:/Users/ayala/Desktop/top/quartus2/db/jpd_mux_4x1.cbx.xml
+design_name = jpd_mux_4x1
+instance = comp, \s~output , s~output, jpd_mux_4x1, 1
+instance = comp, \e3~input , e3~input, jpd_mux_4x1, 1
+instance = comp, \c0~input , c0~input, jpd_mux_4x1, 1
+instance = comp, \c1~input , c1~input, jpd_mux_4x1, 1
+instance = comp, \e1~input , e1~input, jpd_mux_4x1, 1
+instance = comp, \e0~input , e0~input, jpd_mux_4x1, 1
+instance = comp, \inst10~0 , inst10~0, jpd_mux_4x1, 1
+instance = comp, \e2~input , e2~input, jpd_mux_4x1, 1
+instance = comp, \inst10~1 , inst10~1, jpd_mux_4x1, 1

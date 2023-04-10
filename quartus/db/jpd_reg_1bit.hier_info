@@ -1,0 +1,16 @@
+|jpd_reg_1bit
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst2.IN0
+ck => inst.CLK
+dado => jpd_mux_2x1:inst4.e1
+enable => jpd_mux_2x1:inst4.c
+
+
+|jpd_reg_1bit|jpd_mux_2x1:inst4
+s <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => inst1.IN0
+c => inst1.IN1
+c => inst3.IN0
+e0 => inst.IN0
+
+

@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ayala/Desktop/top/quartus2/jpd_ha.bdf
+source_file = 1, C:/Users/ayala/Desktop/top/quartus2/ha_simulation.vwf
+source_file = 1, C:/Users/ayala/Desktop/top/quartus2/db/jpd_ha.cbx.xml
+design_name = jpd_ha
+instance = comp, \s~output , s~output, jpd_ha, 1
+instance = comp, \co~output , co~output, jpd_ha, 1
+instance = comp, \a~input , a~input, jpd_ha, 1
+instance = comp, \b~input , b~input, jpd_ha, 1

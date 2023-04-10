@@ -1,0 +1,68 @@
+$comment
+	File created using the following command:
+		vcd file jpd_mux_4x1.msim.vcd -direction
+$end
+$date
+	Sun Apr 02 22:21:34 2023
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module jpd_mux_4x1_vlg_vec_tst $end
+$var reg 1 ! c0 $end
+$var reg 1 " c1 $end
+$var reg 1 # e0 $end
+$var reg 1 $ e1 $end
+$var reg 1 % e2 $end
+$var reg 1 & e3 $end
+$var wire 1 ' s $end
+$var wire 1 ( sampler $end
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / s~output_o $end
+$var wire 1 0 e3~input_o $end
+$var wire 1 1 c0~input_o $end
+$var wire 1 2 c1~input_o $end
+$var wire 1 3 e1~input_o $end
+$var wire 1 4 e0~input_o $end
+$var wire 1 5 inst10~0_combout $end
+$var wire 1 6 e2~input_o $end
+$var wire 1 7 inst10~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+0#
+0$
+0%
+1&
+1'
+x(
+0)
+1*
+x+
+1,
+1-
+1.
+1/
+10
+11
+12
+03
+04
+15
+06
+17
+$end
+#1000000

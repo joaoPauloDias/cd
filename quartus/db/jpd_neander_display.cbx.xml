@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="jpd_neander_display">
+		<CBX_INST_ENTRY INSTANCE_NAME="|jpd_neander_display|jpd_neander:inst1|jpd_mem:inst4|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_c021.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
